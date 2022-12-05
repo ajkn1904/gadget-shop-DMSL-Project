@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 1000px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("gadgetsback.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.glogo {
+    margin-left: 50px;
+}
+
+.container input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.container input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.container input[type=submit] {
+    width: 15%;
+    background-color: #787878;
+    color: white;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.container input[type=submit]:hover {
+    background-color: #5F9EA0;
+}
+
+.container input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+div {
+    top: 1px;
+    right: 450px;
+    width: 500px;
+    height: 800px;
+    position: absolute;
+    margin: 5% auto;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: .5px solid #fff;
+    padding: 12px 0px;
+    font-size: 13px;
+    background: #787878;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.btn:hover {
+    border: 1px solid #F0F8FF;
+    background: #5F9EA0;
+    transition: 1s;
+}

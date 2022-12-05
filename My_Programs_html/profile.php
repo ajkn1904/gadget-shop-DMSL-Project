@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<title> Profile </title>
+</head><ul>
+<p align="center"><img src="ULogo.png" width="140" height="100"><p>
+<body>
+<h1 align="center">Student Profile</h1> </ul>
+<hr>
+<ul>
+<div id="header">
+
+<h3>Personal Information</h3><ul>
+<img src="flower.jpg" alt="profile-picture" border="1" width="100" height="100" align="right"/>
+ <label id="name"><b>Name:</b>	Anika Jumana Khanam Nishat </label><br>
+ <label id="fname"><b>Father's Name:</b>	Bazlur Rashid Khan </label><br>
+ <label id="mname"><b>Mother's Name:</b>	Farhena Akter </label><br>
+ <label id="instituation"><b>Instituation's Name:</b>	Premier University</label><br>
+ <label id="sid"><b>Student Id:</b>	1903710201904 </label><br>
+ <label id="sem"><b>Semester:</b>	4th </label><br>
+ <label id="sec"><b>Section:</b>	A </label><br>
+ <label id="session"><b>Session:</b>	Fall 2022 </label><br>
+ <label id="bgroup"><b>Blood Group:</b>	O+ </label><br>
+ <label id="religion"><b>Religion:</b>	Islam </label><br>
+ <label id="nationality"><b>Nationality:</b>	Bangladeshi </label><br>
+ <label id="contact"> <b>Contact:</b>	+880 1XXXXXXXXX</label><br>
+ <a href="mailto:ajknishat@gmail.com"><label id="email"> <b>Email:</b>	ajknishat@gmail.com</lable></a><br>
+ <label id="add"><b> Address:</b> Shadarghat Road, Chittagong </label><br>
+ </ul>
+     </div>
+	 
+     <div>
+            <h3>Educational Qualifications</h3>
+            <table align="center" border="0" width="800" height="100">
+                <tr id="heading">
+                    <td>Qualification</td>
+                    <td>Board/University</td>
+                    <td>Grade/CGPA</td>
+                    <td>Year</td>
+                </tr>
+                <tr>
+                    <td>SSC</td>
+                    <td>Chittagong</td>
+                    <td>A+</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>Chittagong</td>
+                    <td>A</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>B.Sc in CSE</td>
+                    <td>Premier University</td>
+                    <td>A</td>
+                    <td>2024</td>
+                </tr>   
+            </table>
+			</div>
+            
+            <h3>Programing Language Skill:</h3>
+      <div id="pskill">
+         <ul>
+            <li>C</li>
+			<li>C++</li>
+            <li>Java</li>
+            <li>Python</li>
+			<li>HTML</li>
+         </ul>
+      </div>
+
+            <h3>Language Skill:</h3>
+       <div id="skill">
+         <ul>
+            <li>Bangla</li>
+			<li>English</li>
+            <li>Arabic</li>
+         </ul>
+      </div>
+   
+            <h3>Hobbies:</h3><ul>
+            <p id="hob">Reading Books, Problem Solving, Coding & Gardening.</p></ul>
+	
+<p align="center"> Thank You! </p>	</ul>
+<hr/>
+	<footer id="footer">
+	<p align="right"><a href="login.php"> <b>Log Out </b></a></p>
+	</footer>
+</body>
+</html>   

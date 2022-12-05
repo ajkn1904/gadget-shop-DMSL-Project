@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UFT-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+	<link rel="stylesheet" href="cus_style.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+<section class="header">
+<nav>
+<div class="glogo">
+    <img src="gadlogo.jpg" alt="logo">
+  </div>
+  <div class="navlink">
+  
+  <ul>
+  <li><a href="">CART</a></li>
+  <li><a href="">PANDING</a></li>
+  <li><a href="">REVIEW</a></li>
+  <li><a href="">EDIT DETAIL</a></li>
+  <li><a href="home_page.php">SIGN OUT</a></li>
+  </ul>
+  </div>
+  
+
+
+<div class="icons">
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="fas fa-shopping-cart"></a>
+<a href="#" class="fas fa-user"></a>
+</div>
+</nav>
+
+</section>
+
+<section class="product" id="product" name="product">
+<h1 class="head" name="head">Latest<span>Products<span></h1>
+<div class="box-container" name="box-container">
+
+<div class="box" name="box">
+<span class="discount">-30%</span>
+<div class="image">
+<img src="laptop.jpg" alt="">
+<div class="icons">
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="cart-btn">Add to cart</a>
+<a href="#" class="fas fa-share"></a>
+</div>
+</div>
+<div class="content">
+<h3>Laptop</h3>
+<div class="price" name="price">150.00/-<span>170.50/-</span></div>
+</div>
+
+<div class="box" name="box">
+<span class="discount">-15%</span>
+<div class="image">
+<img src="phone.jpg" alt="">
+<div class="icons">
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="cart-btn">Add to cart</a>
+<a href="#" class="fas fa-share"></a>
+</div>
+</div>
+<div class="content">
+<h3>Smart Phone</h3>
+<div class="price" name="price">50.00/-<span>55.50/-</span></div>
+</div>
+
+<div class="box" name="box">
+<span class="discount">-15%</span>
+<div class="image">
+<img src="headphone.jpg" alt="">
+<div class="icons">
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="cart-btn">Add to cart</a>
+<a href="#" class="fas fa-share"></a>
+</div>
+</div>
+<div class="content">
+<h3>Headphone</h3>
+<div class="price" name="price">39.00/-<span>40.00/-</span></div>
+</div>
+
+<div class="box" name="box">
+<span class="discount">-15%</span>
+<div class="image">
+<img src="earbud.jpg" alt="">
+<div class="icons">
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="cart-btn">Add to cart</a>
+<a href="#" class="fas fa-share"></a>
+</div>
+</div>
+<div class="content">
+<h3>Ear Bud</h3>
+<div class="price" name="price">15.00/-<span>17.50/-</span></div>
+</div>
+
+<div class="box" name="box">
+<span class="discount">-25%</span>
+<div class="image">
+<img src="smartglass.jpg" alt="">
+<div class="icons">
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="cart-btn">Add to cart</a>
+<a href="#" class="fas fa-share"></a>
+</div>
+</div>
+<div class="content">
+<h3>Smart Glass</h3>
+<div class="price" name="price">45.00/-<span>47.50/-</span></div>
+</div>
+
+<div class="box" name="box">
+<span class="discount">-5%</span>
+<div class="image">
+<img src="watch.jpg" alt="">
+<div class="icons">
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="cart-btn">Add to cart</a>
+<a href="#" class="fas fa-share"></a>
+</div>
+</div>
+<div class="content">
+<h3>watch</h3>
+<div class="price" name="price">15.00/-<span>17.50/-</span></div>
+</div>
+
+<div class="box" name="box">
+<span class="discount">-20%</span>
+<div class="image">
+<img src="band.jpg" alt="">
+<div class="icons">
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="cart-btn">Add to cart</a>
+<a href="#" class="fas fa-share"></a>
+</div>
+</div>
+<div class="content">
+<h3>Smart watch</h3>
+<div class="price" name="price">35.00/-<span>49.25/-</span></div>
+</div>
+
+<div class="box" name="box">
+<span class="discount">-17%</span>
+<div class="image">
+<img src="cam.jpg" alt="">
+<div class="icons">
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="cart-btn">Add to cart</a>
+<a href="#" class="fas fa-share"></a>
+</div>
+</div>
+<div class="content">
+<h3>Camera</h3>
+<div class="price" name="price">65.00/-<span>73.50/-</span></div>
+</div>
+
+<div class="box" name="box">
+<span class="discount">-5%</span>
+<div class="image">
+<img src="lens.jpg" alt="">
+<div class="icons">
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="cart-btn">Add to cart</a>
+<a href="#" class="fas fa-share"></a>
+</div>
+</div>
+<div class="content">
+<h3>Lens</h3>
+<div class="price" name="price">15.00/-<span>17.50/-</span></div>
+</div>
+
+<div class="box" name="box">
+<span class="discount">-10%</span>
+<div class="image">
+<img src="drone.jpg" alt="">
+<div class="icons">
+<a href="#" class="fas fa-heart"></a>
+<a href="#" class="cart-btn">Add to cart</a>
+<a href="#" class="fas fa-share"></a>
+</div>
+</div>
+<div class="content">
+<h3>Drone</h3>
+<div class="price" name="price">15.00/-<span>17.00/-</span></div>
+</div>
+
+</div>
+</section>
+
+<footer>
+<div class="footer-content">
+    
+</div>
+<h3>My GadGetZ</h3>
+ 
+ <ul class="socials">
+    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+ </ul>
+ <div class="footer-bottom">
+</div>
+<p>copyright &copy;2022 <a href="#"></a>  </p>
+</footer>
+</body>
+</html>

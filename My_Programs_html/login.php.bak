@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Login page</title>
+</head>
+<body><br><br><br><ul>
+<p align="center"><img src="ULogo.png" width="140" height="100"></p>
+  <h1 align="center">Premier University Chittagong</h1> 
+  <h2 align="center">Student Login Form</h2>
+<form>  
+        <div class="container">   
+            <label><b>Username :</b> </label>   
+            <input type="text" placeholder="Enter Username" name="username" required> <br> <br>
+            <label><b>Password :</b> </label>   
+            <input type="password" placeholder="Enter Password" name="password" required><br><br>  
+            <button type="submit">Login</button><br> 
+<p>Have no account? <a href="signup_form.html"> <b>Register Now </b></a>	</p>		
+            
+        </div>   
+    </form>    
+  <br>
+  <a href="http://www.puc.ac.bd"> Visit PU </a></ul>
+  <hr>
+</body>
+</html>

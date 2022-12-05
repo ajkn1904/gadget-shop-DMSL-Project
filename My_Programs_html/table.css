@@ -1,0 +1,37 @@
+.customers {
+    border-collapse: collapse;
+    margin: 25px 12%;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 75%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.customers tr {
+    background-color: #ccc1c6;
+    color: #000000;
+    text-align: left;
+}
+
+.customers th {
+    background-color: #5b7c82;
+    color: #fff;
+    font-weight: bold;
+}
+
+.customers th,
+.customers td {
+    padding: 12px 15px;
+}
+
+.customers tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.customers tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.customers tr:last-of-type {
+    border-bottom: 5px solid #5b7c82;
+}

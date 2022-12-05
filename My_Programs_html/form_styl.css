@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fcontainer input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.fcontainer input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.fcontainer input[type=submit] {
+    width: 30%;
+    background-color: #787878;
+    color: white;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.fcontainer input[type=submit]:hover {
+    background-color: #5F9EA0;
+}
+
+.fcontainer input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #fff;
+    padding: 12px 0px;
+    font-size: 13px;
+    background: #787878;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.btn:hover {
+    border: 1px solid #F0F8FF;
+    background: #5F9EA0;
+    transition: 1s;
+}
+
+.showbtn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    transition: all 0.5s;
+    position: relative;
+    cursor: pointer;
+}
+
+.showbtn:hover {
+    border: 1px solid #696969;
+    background: #5F9EA0;
+    transition: 1s;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.showbtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.showbtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.showbtn:hover span {
+    padding-right: 25px;
+}
+
+.showbtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.form {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.frm {
+    top: 10px;
+    right: 450px;
+    width: 500px;
+    margin: 5% auto;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 4px;
+}
